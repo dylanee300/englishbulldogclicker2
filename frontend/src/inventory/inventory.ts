@@ -1,10 +1,16 @@
-const ownedDoggies = document.querySelectorAll("owned-doggie") as NodeListOf<HTMLDivElement>;
-const totalOwned = document.getElementById("total-Owned") as HTMLDivElement;
-const equiptDoggie = document.getElementById("equipt-Doggie") as HTMLButtonElement;
-const unequiptDoggie = document.getElementById("unequipt-Doggie") as HTMLButtonElement;
+import { doggie } from "./clicker/click";
+
+const totalDoggies = 3; // curent amount of doggies in game, the ones in te current market
+
+const ownedDoggies = document.querySelectorAll("owned-doggies") as NodeListOf<HTMLDivElement>;
+const totalOwned = document.getElementById("total-owned") as HTMLDivElement;
+const equipDoggie = document.getElementById("equip-doggie") as HTMLButtonElement;
+const unequipDoggie = document.getElementById("unequip-doggie") as HTMLButtonElement;
+const currentDoggie = document.getElementById("doggie") as HTMLImageElement;
 
 ownedDoggies.forEach((doggie) => {
-    doggie.addEventListener("click", () => {
-        console.log("test");
-    });
+  doggie.addEventListener("click", () => {
+    console.log("Clicked:", doggie.dataset.name);
+  });
 });
+
