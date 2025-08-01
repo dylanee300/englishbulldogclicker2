@@ -121,23 +121,26 @@ h1 {
 
 #c1price {
   background-color: gray ;
-  font-size: 28px;
+  font-size: 35px;
   border-radius: 10px;
   cursor: pointer;
+  margin: 8px;
 }
 
 #c2price {
-  background-color: gray;
-  font-size: 28px;
+  background-color: gray ;
+  font-size: 35px;
   border-radius: 10px;
   cursor: pointer;
+  margin: 8px;
 }
 
 #c3price {
-  background-color: GRAY;
-  font-size: 28px;
+  background-color: gray ;
+  font-size: 35px;
   border-radius: 10px;
   cursor: pointer;
+  margin: 8px;
 }
 
 /* The uh design for the popup for buying doggies */
