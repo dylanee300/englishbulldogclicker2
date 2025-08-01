@@ -8,5 +8,24 @@
   ],
   "description": "Monorepo for English Bulldog Clicker frontend and backend",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylanee300/englishbulldogclicker2.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/dylanee300/englishbulldogclicker2/issues"
+  },
+  "homepage": "https://github.com/dylanee300/englishbulldogclicker2#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.0"
+  }
 }
