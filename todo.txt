@@ -2,4 +2,8 @@
 - Staff panel
 - Shop
 - Leaderboard
-- A whole lot more
+- Inventory
+- Taking ips apon login
+- db
+- Market Fixes
+- Stats
