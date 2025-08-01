@@ -7,3 +7,4 @@
 - db
 - Market Fixes
 - Stats
+- Market count display
